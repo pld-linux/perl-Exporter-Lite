@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Exporter
 %define	pnam	Lite
-Summary:	Exporter::Lite - Lightweight exporting of variables
+Summary:	Exporter::Lite - lightweight exporting of variables
 Summary(pl):	Exporter::Lite - lekkie eksportowanie zmiennych
 Name:		perl-Exporter-Lite
 Version:	0.01
