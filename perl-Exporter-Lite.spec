@@ -9,7 +9,7 @@ Summary:	Exporter::Lite - lightweight exporting of variables
 Summary(pl):	Exporter::Lite - lekkie eksportowanie zmiennych
 Name:		perl-Exporter-Lite
 Version:	0.01
-Release:	1
+Release:	2
 # contains "same as perl" modules for tests
 License:	unknown
 Group:		Development/Languages/Perl
