@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Exporter
-%define	pnam	Lite
+%define		pdir	Exporter
+%define		pnam	Lite
 Summary:	Exporter::Lite - lightweight exporting of variables
 Summary(pl):	Exporter::Lite - lekkie eksportowanie zmiennych
 Name:		perl-Exporter-Lite
