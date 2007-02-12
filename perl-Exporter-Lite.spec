@@ -6,7 +6,7 @@
 %define		pdir	Exporter
 %define		pnam	Lite
 Summary:	Exporter::Lite - lightweight exporting of variables
-Summary(pl):	Exporter::Lite - lekkie eksportowanie zmiennych
+Summary(pl.UTF-8):   Exporter::Lite - lekkie eksportowanie zmiennych
 Name:		perl-Exporter-Lite
 Version:	0.01
 Release:	2
@@ -29,15 +29,15 @@ Unlike Exporter, it is not necessary to inherit from Exporter::Lite
 (ie. no @ISA = qw(Exporter::Lite) mantra).  Exporter::Lite simply
 exports its import() function.  This might be called a "mix-in".
 
-%description -l pl
-Ten modu³ jest alternatyw± dla Exportera maj±c± udostêpniæ lekki
-podzbiór jego funkcjonalno¶ci. Obs³uguje import(), @EXPORT oraz
-@EXPORT_OK i niewiele wiêcej.
+%description -l pl.UTF-8
+Ten moduÅ‚ jest alternatywÄ… dla Exportera majÄ…cÄ… udostÄ™pniÄ‡ lekki
+podzbiÃ³r jego funkcjonalnoÅ›ci. ObsÅ‚uguje import(), @EXPORT oraz
+@EXPORT_OK i niewiele wiÄ™cej.
 
-W przeciwieñstwie do Exportera, nie trzeba dziedziczyæ z
-Exporter::Lite (czyli wykonywaæ mantry @ISA = qw(Exporter::Lite)).
-Exporter::Lite po prostu eksportuje swoj± funkcjê import(). Mo¿na
-to nazwaæ "miksowaniem".
+W przeciwieÅ„stwie do Exportera, nie trzeba dziedziczyÄ‡ z
+Exporter::Lite (czyli wykonywaÄ‡ mantry @ISA = qw(Exporter::Lite)).
+Exporter::Lite po prostu eksportuje swojÄ… funkcjÄ™ import(). MoÅ¼na
+to nazwaÄ‡ "miksowaniem".
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
