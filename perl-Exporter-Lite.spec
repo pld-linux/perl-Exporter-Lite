@@ -6,7 +6,7 @@
 %define		pdir	Exporter
 %define		pnam	Lite
 Summary:	Exporter::Lite - lightweight exporting of variables
-Summary(pl.UTF-8):   Exporter::Lite - lekkie eksportowanie zmiennych
+Summary(pl.UTF-8):	Exporter::Lite - lekkie eksportowanie zmiennych
 Name:		perl-Exporter-Lite
 Version:	0.01
 Release:	2
