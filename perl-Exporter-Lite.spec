@@ -7,13 +7,13 @@
 Summary:	Exporter::Lite - lightweight exporting of variables
 Summary(pl.UTF-8):	Exporter::Lite - lekkie eksportowanie zmiennych
 Name:		perl-Exporter-Lite
-Version:	0.02
-Release:	2
-# contains "same as perl" modules for tests
-License:	unknown
+Version:	0.09
+Release:	1
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	e2ed5978a09020de16b5cf30c84566b0
+Source0:	https://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	afeceba95b4c393b866a57f4818c6aba
 URL:		http://search.cpan.org/dist/Exporter-Lite/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
